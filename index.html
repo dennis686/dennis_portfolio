@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dennis Ngetich — Web Developer Portfolio</title>
+  <meta name="description" content="Dennis Portfolio — Web Developer. Projects, skills, contact and downloadable CV." />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicons (optional) -->
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <!-- MAIN NAV -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <img src="images/logo.png" alt="Dennis Logo" class="logo">
+      <a class="logo" href="#home">Dennis Ngetich</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="social-icons navbar-icons">
+    <a href="https://github.com/YOUR_USERNAME" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+    </a>
+
+    <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+    </a>
+</div>
+
+    </nav>
+  </header>
+
+  <!-- HERO / HOME -->
+  <section id="home" class="hero section" data-bg="#0b1020">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h1 class="hero-title">Hi, I'm <span class="name">DENNIS</span></h1>
+        <h2 id="animatedText" class="hero-subtitle" aria-live="polite"></h2>
+
+        <p class="hero-desc">I build modern, responsive websites and web apps. I focus on clean UI, accessibility and performance.</p>
+
+        <div class="hero-cta">
+
+          <a class="btn btn-outline" href="#projects">View Projects</a>
+        </div>
+
+        <div class="hero-links">
+          <a href="linkedin svg" target="_blank" rel="noopener"><github class="com">
+          <dennis868></dennis868></a>
+          <span class="sep"></span>
+          <a href="https://www.linkedin.com/in/denni686" target="_blank" rel="noopener"><linkedin class="com">
+          <in>
+          <dennis686></dennis686></a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <!-- decorative / illustrative images (replace with your image files) -->
+        <img src="images/programmer-bg.jpg" alt="Illustration of a computer and coding" class="hero-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section" data-bg="#f4f7fb">
+    <div class="profile-container">
+      <img src="images/profile.jpg" alt="my profile photo" class="profile-img">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I am a web developer who loves building accessible, performant and beautiful user experiences. I enjoy working with modern JavaScript frameworks and building static and dynamic sites.</p>
+
+          <ul>
+            <li><strong>Location:</strong> Nakuru,Kenya</li>
+            <li><strong>Email:</strong> <a href="malto:email">alexcheruu034@gmail.com</a></li>
+            <li><strong>Available for:</strong> Freelance / Full-time</li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="about section" data-bg="#f4f7fb">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <h3>Frontend</h3>
+          <p>HTML5, CSS3, JavaScript, React, Vue</p>
+        </div>
+        <div class="skill">
+          <h3>Backend</h3>
+          <p>Node.js, Express, Django, REST APIs</p>
+        </div>
+        <div class="skill">
+          <h3>Tools</h3>
+          <p>Git, Webpack, Vite, NPM, CI/CD</p>
+        </div>
+        <div class="skill">
+          <h3>Design</h3>
+          <p>Responsive Layouts, Figma, Accessibility</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects section" data-bg="#f7f9fc">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+        <!-- Example project card (duplicate for each project) -->
+        <article class="project-card">
+          <img src="sandbox:/mnt/data/voting_display.pn" alt="" class="project-thumb">
+          <div class="project-body">
+            <h3>E-Voting System</h3>
+            <p>Voter registration and login system
+             Secure voting process
+             Live results display
+             Admin dashboard for managing elections and candidates
+             Responsive and accessible interface</p>
+            <div class="project-links">
+              <a href="https://github.com/YOUR_GITHUB/project-one" target="_blank" rel="noopener">Source</a>
+              <a href="#" target="_blank" rel="noopener">Live</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Add more project cards here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section" data-bg="#eef4ff">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p>Want to work together? Send me a message.</p>
+
+      <form class="contact-form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="alexcheruu034@mail.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="contact-socials">
+        <a href="https://github.com/denni686" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/dennis Ngetich" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Dennis Ngetich — Built with ❤️</p>
+    </div>
+    <div class="social-icons footer-icons">
+    <a href="https://github.com/YOUR_USERNAME" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+    </a>
+
+    <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+    </a>
+</div>
+
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
